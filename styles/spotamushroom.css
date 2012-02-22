@@ -1,0 +1,48 @@
+body {
+	
+
+}
+
+.mushroom {
+	position: relative;
+	z-index: 0;
+}
+.overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+ 	display: none;
+	z-index: 2;
+}
+.blurb {
+ 	display: none;
+}
+
+.share {
+	position: relative;
+	top: 50pt;
+}
+
+table.share {
+	padding: 10px;
+	top: 50px;
+}
+.legend {
+	position: relative;
+	padding: 10px;
+	align: middle;
+}
+table {
+	width: 100%;
+	color: #665132;
+}
+
+thead tr {
+	height: 50px;
+	font-size: x-large;
+	background-color: #F4FFED;
+}
+
+td {
+	vertical-align: top;
+}
