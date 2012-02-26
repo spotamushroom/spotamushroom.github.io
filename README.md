@@ -1,2 +1,1 @@
-# This is my README
-# This is my README
+Spot A Mushroom: a point-and-click game for mushroom hunters.
