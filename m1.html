@@ -4,20 +4,7 @@
 <title>Spot A Mushroom</title>
 <meta name="robots" content="noindex nofollow">
 <link rel="stylesheet" type="text/css" href="styles/spotamushroom.css" />
-<script type="text/javascript">
-
-function found() { 
-	document.getElementById("overlay").style.display = "block";
-	document.getElementById('blurb').style.display = "block";
-	document.getElementById('legend').innerHTML= "You found a Mycena!";
-	
-	return true;
-}
-
-function blurb() {
-	return true;
-}
-</script>
+<script type="text/javascript" src="scripts/spotamushroom.js"></script>
 </head>
 <body>
 
@@ -30,21 +17,26 @@ function blurb() {
 		<tbody>
 			<tr>
 				<td><div class="mushroom">
-						<img src="https://lh3.googleusercontent.com/-z0aRrWJlPmM/T0M--g31AdI/AAAAAAAAUJk/1C-jbZfKnV0/s800/mycenaspot_800.jpg" usemap="#map" alt="" /> 
-						<img class="overlay" id="overlay"
-							src="https://lh5.googleusercontent.com/-2L4wF9G6sXg/T0M-00jOnFI/AAAAAAAAUJc/Hb5R8Tro0xc/s800/mycenaspot_found_800.png" usemap="#map" alt="" />
-					</div>
-					<map name="map">
-						<area shape="circle"
-							coords="142,264,15"
-							alt="mycena!" href="#" onClick="found()" />
+						<img
+							src="https://lh3.googleusercontent.com/-z0aRrWJlPmM/T0M--g31AdI/AAAAAAAAUJk/1C-jbZfKnV0/s800/mycenaspot_800.jpg"
+							usemap="#map" alt="landscape" /> <img class="overlay" id="overlay"
+							src="https://lh5.googleusercontent.com/-2L4wF9G6sXg/T0M-00jOnFI/AAAAAAAAUJc/Hb5R8Tro0xc/s800/mycenaspot_found_800.png"
+							usemap="#map" alt="spot" />
+					</div> <map name="map">
+						<area shape="circle" coords="142,264,15" alt="mycena!" href="#"
+							onClick="found('You found a Mycena!')" />
 					</map></td>
-				<td><div class="legend" id="legend">Can you spot the
-						mushroom hidden in this picture? Click on it to reveal what mushroom is hiding...</div> <br />
+				<td><div class="legend" id="legend">
+						Can you spot the mushroom hidden in this picture? Click on it to
+						reveal what mushroom is hiding...
+						<p>
+							<a href="#" id="hint" onClick="highlight()"><b>Hint</b></a>
+						</p>
+					</div> <br />
 					<div class="blurb" id="blurb">
-						<img src="https://lh5.googleusercontent.com/-6tde1Av9pgk/T0M_pvo7V5I/AAAAAAAAUJ0/Ua6UJa650Gc/s288/mycena.jpg" />
-						<br />
-						<a href="./m2.html"><b>Spot more...</b></a>
+						<img
+							src="https://lh5.googleusercontent.com/-6tde1Av9pgk/T0M_pvo7V5I/AAAAAAAAUJ0/Ua6UJa650Gc/s288/mycena.jpg" />
+						<br /> <a href="./m2.html"><b>Spot more...</b></a>
 					</div></td>
 			</tr>
 		</tbody>
@@ -54,7 +46,7 @@ function blurb() {
 			</tr>
 		</tfoot>
 	</table>
-<script type="text/javascript">
+	<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-29363072-1']);

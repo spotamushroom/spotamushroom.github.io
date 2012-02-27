@@ -2,28 +2,17 @@
 <html>
 <head>
 <title>Spot A Mushroom</title>
-<meta name="robots" content="noindex nofollow"/>
+<meta name="robots" content="noindex nofollow" />
 <meta property="og:title" content="Spot A Mushroom" />
 <meta property="og:type" content="game" />
 <meta property="og:url" content="http://www.spotamushroom.com" />
-<meta property="og:image" content="https://lh6.googleusercontent.com/-6fvNAYiyPkA/T0l6jwtNmqI/AAAAAAAAUMg/iR-YkaWjVs0/s144/IMG_4257.JPG" />
-<meta property="og:description" content="I found 2 morels at SpotAMushroom. Try it!" />
+<meta property="og:image"
+	content="https://lh6.googleusercontent.com/-6fvNAYiyPkA/T0l6jwtNmqI/AAAAAAAAUMg/iR-YkaWjVs0/s144/IMG_4257.JPG" />
+<meta property="og:description"
+	content="I found 2 morels at SpotAMushroom. Try it!" />
 <meta property="og:site_name" content="SpotAMushroom.com" />
 <link rel="stylesheet" type="text/css" href="styles/spotamushroom.css" />
-<script type="text/javascript">
-
-function found() { 
-	document.getElementById("overlay").style.display = "block";
-	document.getElementById('blurb').style.display = "block";
-	document.getElementById('legend').innerHTML= "You found a Blond Morel!";
-	
-	return true;
-}
-
-function blurb() {
-	return true;
-}
-</script>
+<script type="text/javascript" src="scripts/spotamushroom.js"></script>
 </head>
 <body>
 
@@ -36,31 +25,35 @@ function blurb() {
 		<tbody>
 			<tr>
 				<td><div class="mushroom">
-						<img src="https://lh4.googleusercontent.com/-o9M1MQAvU8E/T0Mwdw21FzI/AAAAAAAAUJU/O0CiFYAnHgY/s800/morelspot_1_800.jpg" usemap="#map" alt="" /> 
-						<img class="overlay" id="overlay"
-							src="https://lh6.googleusercontent.com/-pKSo0vfch1o/T0MwZIlisUI/AAAAAAAAUJM/KENZAXvg07w/s800/morelspot_found_800.png" usemap="#map" alt="" />
-					</div>
-					<map name="map">
+						<img
+							src="https://lh4.googleusercontent.com/-o9M1MQAvU8E/T0Mwdw21FzI/AAAAAAAAUJU/O0CiFYAnHgY/s800/morelspot_1_800.jpg"
+							usemap="#map" alt="landscape" /> <img class="overlay" id="overlay"
+							src="https://lh6.googleusercontent.com/-pKSo0vfch1o/T0MwZIlisUI/AAAAAAAAUJM/KENZAXvg07w/s800/morelspot_found_800.png"
+							usemap="#map" alt="spot" />
+					</div> <map name="map">
 						<area shape="poly"
 							coords="441,179,422,193,422,209,439,222,463,221,472,205,470,191,462,181"
-							alt="morel!" href="#" onClick="found()" />
+							alt="morel!" href="#" onClick="found('You found a Blond Morel!')" />
 					</map></td>
-				<td><div class="legend" id="legend">Can you spot the
-						mushroom hidden in this picture? Click on it to reveal what mushroom is hiding...</div> <br />
+				<td><div class="legend" id="legend">
+						Can you spot the mushroom hidden in this picture? Click on it to
+						reveal what mushroom is hiding...
+						<p>
+							<a href="#" id="hint" onClick="highlight()"><b>Hint</b></a>
+						</p>
+					</div> <br />
 					<div class="blurb" id="blurb">
-						<img src="https://lh5.googleusercontent.com/-za4WtHeH0-k/T0Mcr3t-NvI/AAAAAAAAUJE/eyTvRW_mISA/s288/IMG_7379.JPG" />
+						<img
+							src="https://lh5.googleusercontent.com/-za4WtHeH0-k/T0Mcr3t-NvI/AAAAAAAAUJE/eyTvRW_mISA/s288/IMG_7379.JPG" />
 						<div class="share">
-							Congratulations, that's all for now... share the fun:
-							<br />
-							<br />
+							Congratulations, that's all for now... share the fun: <br /> <br />
 							<table>
 								<tr>
 									<td><span class='st_facebook_hcount'
 										displayText='Facebook'></span><br /></td>
 								</tr>
 								<tr>
-									<td><span class='st_twitter_hcount'
-										displayText='Tweet'></span><br /></td>
+									<td><span class='st_twitter_hcount' displayText='Tweet'></span><br /></td>
 								</tr>
 								<tr>
 									<td><span class='st_email_hcount'
@@ -78,10 +71,11 @@ function blurb() {
 			</tr>
 		</tfoot>
 	</table>
-<script type="text/javascript">var switchTo5x=true;</script>
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">stLight.options({publisher: "bbbc8905-2c96-4617-927b-219f0c9b1259"}); </script>
-<script type="text/javascript">
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<script type="text/javascript"
+		src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "bbbc8905-2c96-4617-927b-219f0c9b1259"}); </script>
+	<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-29363072-1']);

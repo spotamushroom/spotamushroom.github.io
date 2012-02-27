@@ -4,33 +4,7 @@
 <title>Spot A Mushroom</title>
 <meta name="robots" content="noindex nofollow">
 <link rel="stylesheet" type="text/css" href="styles/spotamushroom.css" />
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-29363072-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-<script type="text/javascript">
-
-function found() { 
-	document.getElementById("overlay").style.display = "block";
-	document.getElementById('blurb').style.display = "block";
-	document.getElementById('legend').innerHTML= "You found a bunch of Conks!";
-	
-	return true;
-}
-
-function blurb() {
-	return true;
-}
-</script>
+<script type="text/javascript" src="scripts/spotamushroom.js"></script>
 </head>
 <body>
 
@@ -43,20 +17,27 @@ function blurb() {
 		<tbody>
 			<tr>
 				<td><div class="mushroom">
-						<img src="https://lh4.googleusercontent.com/-wy6oSie7-wQ/T0SFbP2DZLI/AAAAAAAAUME/OxWQB57kC1Q/s800/conkspot_800.jpg" usemap="#map" alt="" /> 
-						<img class="overlay" id="overlay"
-							src="https://lh4.googleusercontent.com/-pM_WzEp5AEs/T0SFabXecxI/AAAAAAAAUMA/3CqKlpSZAKs/s800/conkspot_found_800.png" usemap="#map" alt="" />
-					</div>
-					<map name="map">
+						<img
+							src="https://lh4.googleusercontent.com/-wy6oSie7-wQ/T0SFbP2DZLI/AAAAAAAAUME/OxWQB57kC1Q/s800/conkspot_800.jpg"
+							usemap="#map" alt="landscape" /> <img class="overlay" id="overlay"
+							src="https://lh4.googleusercontent.com/-pM_WzEp5AEs/T0SFabXecxI/AAAAAAAAUMA/3CqKlpSZAKs/s800/conkspot_found_800.png"
+							usemap="#map" alt="spot" />
+					</div> <map name="map">
 						<area shape="poly" coords="443,56,412,61,426,88,449,88"
-							alt="mycena!" href="#" onClick="found()" />
+							alt="conks!" href="#"
+							onClick="found('You found a bunch of Conks!')" />
 					</map></td>
-				<td><div class="legend" id="legend">Can you spot the
-						mushroom hidden in this picture? Click on it to reveal what mushroom is hiding...</div> <br />
+				<td><div class="legend" id="legend">
+						Can you spot the mushroom hidden in this picture? Click on it to
+						reveal what mushroom is hiding...
+						<p>
+							<a href="#" id="hint" onClick="highlight()"><b>Hint</b></a>
+						</p>
+					</div> <br />
 					<div class="blurb" id="blurb">
-						<img src="https://lh3.googleusercontent.com/-juHfXlQAD8c/T0NIyqSlDSI/AAAAAAAAUJ8/ZZFqO0-pM2I/s288/conk.jpg" />
-						<br />
-						<a href="./m5.html"><b>Spot more...</b></a>
+						<img
+							src="https://lh3.googleusercontent.com/-juHfXlQAD8c/T0NIyqSlDSI/AAAAAAAAUJ8/ZZFqO0-pM2I/s288/conk.jpg" />
+						<br /> <a href="./m5.html"><b>Spot more...</b></a>
 					</div></td>
 			</tr>
 		</tbody>
@@ -66,7 +47,7 @@ function blurb() {
 			</tr>
 		</tfoot>
 	</table>
-<script type="text/javascript">
+	<script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-29363072-1']);

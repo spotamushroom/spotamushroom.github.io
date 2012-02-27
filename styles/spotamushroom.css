@@ -17,7 +17,9 @@ body {
 .blurb {
  	display: none;
 }
-
+#hint {
+	display: none;
+}
 .share {
 	position: relative;
 	top: 50pt;
