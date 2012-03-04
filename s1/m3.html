@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spot A Mushroom</title>
+<meta name="robots" content="noindex nofollow">
+<link rel="stylesheet" type="text/css" href="../styles/spotamushroom.css" />
+<script type="text/javascript" src="../scripts/spotamushroom.js"></script>
+</head>
+<body>
+
+	<table id="mushroomspot">
+		<thead>
+			<tr>
+				<th colspan="2">Spot the mushroom</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><div class="mushroom">
+						<img
+							src="https://lh6.googleusercontent.com/-BZqBfTbx3Jw/T1MNBT2ZFkI/AAAAAAAAUPQ/GH6GHOJOUnU/s800/s1_morel3_spot_800.JPG"
+							usemap="#map" alt="landscape" /> <img class="overlay" id="overlay"
+							src="https://lh3.googleusercontent.com/-Bvuw__4DZKc/T1MM-ec6WvI/AAAAAAAAUPI/oX_2rMkL0NI/s800/s1_morel3_found_800.png"
+							usemap="#map" alt="spot" />
+					</div> <map name="map">
+						<area shape="poly" coords="281,460,276,469,268,475,254,467,221,489,233,504,252,503,263,526,278,526,282,498,293,487,308,485,306,475,285,459,275,469" alt="Bunch of Morels" href="#map"
+							onClick="found('You found a Bunch of Morels!')" />
+					</map></td>
+				<td><div class="legend" id="legend">
+						Can you spot the mushroom hidden in this picture? Click on it to
+						reveal what mushroom is hiding...
+						<p>
+							<a href="#map" id="hint" onClick="highlight()"><b>Hint</b></a>
+						</p>
+					</div> <br />
+					<div class="blurb" id="blurb">
+						<img
+							src="https://lh3.googleusercontent.com/-q2GQRfG4BUQ/T1LIO5-hP3I/AAAAAAAAUOQ/PrqDEGy1g8g/s288/s1_morel3.JPG" />
+						<br /> 
+						<a href="./m4.html"><b>Spot more...</b></a>
+					</div></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>&copy; 2012 SpotAMushroom.com</td>
+			</tr>
+		</tfoot>
+	</table>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29363072-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

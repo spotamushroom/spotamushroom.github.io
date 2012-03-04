@@ -1,0 +1,54 @@
+{
+	"mushrooms":{
+		"m1":{"name":"Landscape Morel",
+			"images":{
+				"landscape":"https://lh4.googleusercontent.com/-G4FfHRtjigI/T1LIYpD3whI/AAAAAAAAUOs/KCxw2xapMkY/s800/s1_morel_spot_800.JPG",
+				"overlay":"https://lh4.googleusercontent.com/-OyBfrD_hXR4/T1LIQ5d28MI/AAAAAAAAUOY/h_CWPFMOdqc/s800/s1_morel_found_800.png",
+				"blurb":"https://lh3.googleusercontent.com/-CHcQDjkVwgM/T1LIHLcMLjI/AAAAAAAAUNQ/SV9tuV5toEA/s288/s1_morel.JPG"
+			},
+			"shape":"poly",
+			"coords":"418,280,410,309,424,332,438,331,446,317,436,297,430,283",
+			"next":"m2"
+		},
+		"m2":{"name":"Black Morel",
+			"images":{
+				"landscape":"https://lh4.googleusercontent.com/-pylQNTA8h-E/T1LIMVY4lVI/AAAAAAAAUOA/M-MCIx3Q7BY/s800/s1_morel1_spot_800.JPG",
+				"overlay":"https://lh6.googleusercontent.com/-nN1AepEbBO4/T1LIIPNXCEI/AAAAAAAAUNo/8mfMYUmi19A/s800/s1_morel1_found_800.png",
+				"blurb":"https://lh6.googleusercontent.com/-tF1LvUgvweY/T1LIHtdJn1I/AAAAAAAAUNY/gmO-2MPdI6g/s288/s1_morel1.JPG"
+			},
+			"shape":"poly",
+			"coords":"180,0,168,31,169,22,170,47,177,65,196,68,216,61,235,46,242,22,232,0",
+			"next":"m3"
+		},
+		"m3":{"name":"Bunch of Morels",
+			"images":{
+				"landscape":"https://lh6.googleusercontent.com/-BZqBfTbx3Jw/T1MNBT2ZFkI/AAAAAAAAUPQ/GH6GHOJOUnU/s800/s1_morel3_spot_800.JPG",
+				"overlay":"https://lh3.googleusercontent.com/-Bvuw__4DZKc/T1MM-ec6WvI/AAAAAAAAUPI/oX_2rMkL0NI/s800/s1_morel3_found_800.png",
+				"blurb":"https://lh3.googleusercontent.com/-q2GQRfG4BUQ/T1LIO5-hP3I/AAAAAAAAUOQ/PrqDEGy1g8g/s288/s1_morel3.JPG"
+			},
+			"shape":"poly",
+			"coords":"281,460,276,469,268,475,254,467,221,489,233,504,252,503,263,526,278,526,282,498,293,487,308,485,306,475,285,459,275,469",
+			"next":"m4"
+		},
+		"m4":{"name":"Black Elfin Saddle",
+			"images":{
+				"landscape":"https://lh5.googleusercontent.com/-Dlm8OqR9sVk/T1LIIHMihDI/AAAAAAAAUNg/uYkkYNBLaGs/s800/s1_helvella_spot_800.jpg",
+				"overlay":"https://lh4.googleusercontent.com/-Kkpm7Lk3P7E/T1LH-kI_SgI/AAAAAAAAUNA/TdtbJc-w8og/s800/s1_helvella_found_800.png",
+				"blurb":"https://lh5.googleusercontent.com/-FEfMpLpny6g/T1LID9lvOvI/AAAAAAAAUNI/2RBI1G2mXtQ/s288/s1_helvella.jpg"
+			},
+			"shape":"poly",
+			"coords":"451,278,429,302,422,359,403,387,402,401,423,421,445,413,451,398,478,401,487,376,476,361,459,344,467,296",
+			"next":"m5"
+		},
+		"m5":{"name":"Black Morel (Morchella elata)",
+			"images":{
+				"landscape":"https://lh6.googleusercontent.com/-lgca3UxkQcw/T1LIRO8bA8I/AAAAAAAAUOg/yA7m7Ap5B6A/s800/s1_morel2_spot_800.JPG",
+				"overlay":"https://lh5.googleusercontent.com/-neJZ3aXFY88/T1LIKJHGASI/AAAAAAAAUNw/A2-eULDq8dQ/s800/s1_morel2_found_800.png",
+				"blurb":"https://lh3.googleusercontent.com/-hezx_4BmbMQ/T1LILG2g2ZI/AAAAAAAAUN4/0hyUR0YPTv8/s288/s1_morel2.JPG"
+			},
+			"shape":"rect",
+			"coords":"528,286,558,336",
+			"next":"last"
+		}
+	}
+}
