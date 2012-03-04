@@ -1,0 +1,44 @@
+{
+	"mushrooms":{
+		"m1":{"name":"Black Morel",
+			"images":{
+				"landscape":"https://lh6.googleusercontent.com/-WAs7jrAhSgk/T0NXT9HfZcI/AAAAAAAAULg/9XuzOAt-pnw/s800/blackmorel_800.jpg",
+				"overlay":"https://lh4.googleusercontent.com/-mjGq3ExAB2c/T0NXRmpWrWI/AAAAAAAAULY/u9cV3VrLDAU/s800/blackmorel_found_800.png",
+				"blurb":"https://lh3.googleusercontent.com/-wem3eTVS7E4/T0NXcrwRSXI/AAAAAAAAULo/iuuHeFpvGw0/s288/blackmorel_found.jpg"
+			},
+			"shape":"circle",
+			"coords":"278,382,17",
+			"next":"m2"
+		},
+		"m2":{"name":"Mycena",
+			"images":{
+				"landscape":"https://lh3.googleusercontent.com/-z0aRrWJlPmM/T0M--g31AdI/AAAAAAAAUJk/1C-jbZfKnV0/s800/mycenaspot_800.jpg",
+				"overlay":"https://lh5.googleusercontent.com/-2L4wF9G6sXg/T0M-00jOnFI/AAAAAAAAUJc/Hb5R8Tro0xc/s800/mycenaspot_found_800.png",
+				"blurb":"https://lh5.googleusercontent.com/-6tde1Av9pgk/T0M_pvo7V5I/AAAAAAAAUJ0/Ua6UJa650Gc/s288/mycena.jpg"
+			},
+			"shape":"circle",
+			"coords":"142,264,15",
+			"next":"m3"
+		},
+		"m3":{"name":"bunch of Conks",
+			"images":{
+				"landscape":"https://lh4.googleusercontent.com/-wy6oSie7-wQ/T0SFbP2DZLI/AAAAAAAAUME/OxWQB57kC1Q/s800/conkspot_800.jpg",
+				"overlay":"https://lh4.googleusercontent.com/-pM_WzEp5AEs/T0SFabXecxI/AAAAAAAAUMA/3CqKlpSZAKs/s800/conkspot_found_800.png",
+				"blurb":"https://lh3.googleusercontent.com/-juHfXlQAD8c/T0NIyqSlDSI/AAAAAAAAUJ8/ZZFqO0-pM2I/s288/conk.jpg"
+			},
+			"shape":"poly",
+			"coords":"443,56,412,61,426,88,449,88",
+			"next":"m4"
+		},
+		"m4":{"name":"Blond Morel",
+			"images":{
+				"landscape":"https://lh4.googleusercontent.com/-o9M1MQAvU8E/T0Mwdw21FzI/AAAAAAAAUJU/O0CiFYAnHgY/s800/morelspot_1_800.jpg",
+				"overlay":"https://lh6.googleusercontent.com/-pKSo0vfch1o/T0MwZIlisUI/AAAAAAAAUJM/KENZAXvg07w/s800/morelspot_found_800.png",
+				"blurb":"https://lh5.googleusercontent.com/-za4WtHeH0-k/T0Mcr3t-NvI/AAAAAAAAUJE/eyTvRW_mISA/s288/IMG_7379.JPG"
+			},
+			"shape":"poly",
+			"coords":"441,179,422,193,422,209,439,222,463,221,472,205,470,191,462,181",
+			"next":"last"
+		}
+	}
+}
