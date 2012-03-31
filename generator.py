@@ -8,7 +8,7 @@ datafile = open(sys.argv[2],'r')
 json_data = datafile.read()
 data = json.loads(json_data)
 
-mytemplate = Template(filename='templates/spot_hint_tmpl.html')
+mytemplate = Template(filename='templates/spot_tmpl.html')
 
 for mushroom in data['mushrooms']:
     print mushroom
