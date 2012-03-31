@@ -3,8 +3,8 @@
 <head>
 <title>Spot A Mushroom</title>
 <meta name="robots" content="noindex nofollow">
-<link rel="stylesheet" type="text/css" href="styles/spotamushroom.css" />
-<script type="text/javascript" src="scripts/spotamushroom.js"></script>
+<link rel="stylesheet" type="text/css" href="./styles/spotamushroom.css" />
+<script type="text/javascript" src="./scripts/spotamushroom.js"></script>
 </head>
 <body>
 
@@ -18,26 +18,31 @@
 			<tr>
 				<td><div class="mushroom">
 						<img
-							src="https://lh4.googleusercontent.com/-wy6oSie7-wQ/T0SFbP2DZLI/AAAAAAAAUME/OxWQB57kC1Q/s800/conkspot_800.jpg"
+							src="https://lh3.googleusercontent.com/-z0aRrWJlPmM/T0M--g31AdI/AAAAAAAAUJk/1C-jbZfKnV0/s800/mycenaspot_800.jpg"
 							usemap="#map" alt="landscape" /> <img class="overlay" id="overlay"
-							src="https://lh4.googleusercontent.com/-pM_WzEp5AEs/T0SFabXecxI/AAAAAAAAUMA/3CqKlpSZAKs/s800/conkspot_found_800.png"
+							src="https://lh5.googleusercontent.com/-2L4wF9G6sXg/T0M-00jOnFI/AAAAAAAAUJc/Hb5R8Tro0xc/s800/mycenaspot_found_800.png"
 							usemap="#map" alt="spot" />
 					</div> <map name="map">
-						<area shape="poly" coords="443,56,412,61,426,88,449,88"
-							alt="conks!" href="#"
-							onClick="found('You found a bunch of Conks!')" />
+						<area shape="circle" coords="142,264,15" alt="Mycena" href="#map"
+							onClick="found('You found a Mycena!')" />
 					</map></td>
 				<td><div class="legend" id="legend">
 						Can you spot the mushroom hidden in this picture? Click on it to
 						reveal what mushroom is hiding...
-						<p>
-							<a href="#" id="hint" onClick="highlight()"><b>Hint</b></a>
+						<br>
+						<p id="hint">
+							<a href="#" onClick="hint()"><b>Hint</b></a>
+							<span id="show_hint">
+								Look for a Mycena...
+							<a href="#map" onClick="highlight()">Show me</a>
+							</span>
 						</p>
 					</div> <br />
 					<div class="blurb" id="blurb">
 						<img
-							src="https://lh3.googleusercontent.com/-juHfXlQAD8c/T0NIyqSlDSI/AAAAAAAAUJ8/ZZFqO0-pM2I/s288/conk.jpg" />
-						<br /> <a href="./m5.html"><b>Spot more...</b></a>
+							src="https://lh5.googleusercontent.com/-6tde1Av9pgk/T0M_pvo7V5I/AAAAAAAAUJ0/Ua6UJa650Gc/s288/mycena.jpg" />
+						<br /> 
+						<a href="./m3.html"><b>Spot more...</b></a>
 					</div></td>
 			</tr>
 		</tbody>

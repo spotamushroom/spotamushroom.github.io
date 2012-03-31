@@ -3,8 +3,8 @@
 <head>
 <title>Spot A Mushroom</title>
 <meta name="robots" content="noindex nofollow">
-<link rel="stylesheet" type="text/css" href="styles/spotamushroom.css" />
-<script type="text/javascript" src="scripts/spotamushroom.js"></script>
+<link rel="stylesheet" type="text/css" href="./styles/spotamushroom.css" />
+<script type="text/javascript" src="./scripts/spotamushroom.js"></script>
 </head>
 <body>
 
@@ -18,25 +18,31 @@
 			<tr>
 				<td><div class="mushroom">
 						<img
-							src="https://lh3.googleusercontent.com/-z0aRrWJlPmM/T0M--g31AdI/AAAAAAAAUJk/1C-jbZfKnV0/s800/mycenaspot_800.jpg"
+							src="https://lh6.googleusercontent.com/-WAs7jrAhSgk/T0NXT9HfZcI/AAAAAAAAULg/9XuzOAt-pnw/s800/blackmorel_800.jpg"
 							usemap="#map" alt="landscape" /> <img class="overlay" id="overlay"
-							src="https://lh5.googleusercontent.com/-2L4wF9G6sXg/T0M-00jOnFI/AAAAAAAAUJc/Hb5R8Tro0xc/s800/mycenaspot_found_800.png"
+							src="https://lh4.googleusercontent.com/-mjGq3ExAB2c/T0NXRmpWrWI/AAAAAAAAULY/u9cV3VrLDAU/s800/blackmorel_found_800.png"
 							usemap="#map" alt="spot" />
 					</div> <map name="map">
-						<area shape="circle" coords="142,264,15" alt="mycena!" href="#"
-							onClick="found('You found a Mycena!')" />
+						<area shape="circle" coords="278,382,17" alt="Black Morel" href="#map"
+							onClick="found('You found a Black Morel!')" />
 					</map></td>
 				<td><div class="legend" id="legend">
 						Can you spot the mushroom hidden in this picture? Click on it to
 						reveal what mushroom is hiding...
-						<p>
-							<a href="#" id="hint" onClick="highlight()"><b>Hint</b></a>
+						<br>
+						<p id="hint">
+							<a href="#" onClick="hint()"><b>Hint</b></a>
+							<span id="show_hint">
+								Look for a Black Morel...
+							<a href="#map" onClick="highlight()">Show me</a>
+							</span>
 						</p>
 					</div> <br />
 					<div class="blurb" id="blurb">
 						<img
-							src="https://lh5.googleusercontent.com/-6tde1Av9pgk/T0M_pvo7V5I/AAAAAAAAUJ0/Ua6UJa650Gc/s288/mycena.jpg" />
-						<br /> <a href="./m2.html"><b>Spot more...</b></a>
+							src="https://lh3.googleusercontent.com/-wem3eTVS7E4/T0NXcrwRSXI/AAAAAAAAULo/iuuHeFpvGw0/s288/blackmorel_found.jpg" />
+						<br /> 
+						<a href="./m2.html"><b>Spot more...</b></a>
 					</div></td>
 			</tr>
 		</tbody>

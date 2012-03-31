@@ -2,17 +2,17 @@
 <html>
 <head>
 <title>Spot A Mushroom</title>
-<meta name="robots" content="noindex nofollow" />
+<meta name="robots" content="noindex nofollow">
+<link rel="stylesheet" type="text/css" href="./styles/spotamushroom.css" />
+<script type="text/javascript" src="./scripts/spotamushroom.js"></script>
 <meta property="og:title" content="Spot A Mushroom" />
 <meta property="og:type" content="game" />
 <meta property="og:url" content="http://www.spotamushroom.com" />
 <meta property="og:image"
 	content="https://lh6.googleusercontent.com/-6fvNAYiyPkA/T0l6jwtNmqI/AAAAAAAAUMg/iR-YkaWjVs0/s144/IMG_4257.JPG" />
 <meta property="og:description"
-	content="I found 2 morels at SpotAMushroom. Try it!" />
+	content="I found a bunch of morels at SpotAMushroom. Try it!" />
 <meta property="og:site_name" content="SpotAMushroom.com" />
-<link rel="stylesheet" type="text/css" href="styles/spotamushroom.css" />
-<script type="text/javascript" src="scripts/spotamushroom.js"></script>
 </head>
 <body>
 
@@ -31,24 +31,28 @@
 							src="https://lh6.googleusercontent.com/-pKSo0vfch1o/T0MwZIlisUI/AAAAAAAAUJM/KENZAXvg07w/s800/morelspot_found_800.png"
 							usemap="#map" alt="spot" />
 					</div> <map name="map">
-						<area shape="poly"
-							coords="441,179,422,193,422,209,439,222,463,221,472,205,470,191,462,181"
-							alt="morel!" href="#" onClick="found('You found a Blond Morel!')" />
+						<area shape="poly" coords="441,179,422,193,422,209,439,222,463,221,472,205,470,191,462,181" alt="Blond Morel" href="#map"
+							onClick="found('You found a Blond Morel!')" />
 					</map></td>
 				<td><div class="legend" id="legend">
 						Can you spot the mushroom hidden in this picture? Click on it to
 						reveal what mushroom is hiding...
-						<p>
-							<a href="#" id="hint" onClick="highlight()"><b>Hint</b></a>
+						<br>
+						<p id="hint">
+							<a href="#" onClick="hint()"><b>Hint</b></a>
+							<span id="show_hint">
+								Look for a Blond Morel...
+							<a href="#map" onClick="highlight()">Show me</a>
+							</span>
 						</p>
 					</div> <br />
 					<div class="blurb" id="blurb">
 						<img
 							src="https://lh5.googleusercontent.com/-za4WtHeH0-k/T0Mcr3t-NvI/AAAAAAAAUJE/eyTvRW_mISA/s288/IMG_7379.JPG" />
+						<br /> 
 						<div class="share">
 							Congratulations, you found all the mushrooms in this series. 
 							<a href="s1/m1.html">Spot More</a><br />
-							<br />
 							<table>
 								<tr>
 									<td><span class='st_facebook_hcount'

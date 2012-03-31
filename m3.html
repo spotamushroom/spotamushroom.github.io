@@ -2,9 +2,9 @@
 <html>
 <head>
 <title>Spot A Mushroom</title>
-<meta name="robots" content="noindex nofollow" />
-<link rel="stylesheet" type="text/css" href="styles/spotamushroom.css" />
-<script type="text/javascript" src="scripts/spotamushroom.js"></script>
+<meta name="robots" content="noindex nofollow">
+<link rel="stylesheet" type="text/css" href="./styles/spotamushroom.css" />
+<script type="text/javascript" src="./scripts/spotamushroom.js"></script>
 </head>
 <body>
 
@@ -18,25 +18,31 @@
 			<tr>
 				<td><div class="mushroom">
 						<img
-							src="https://lh6.googleusercontent.com/-WAs7jrAhSgk/T0NXT9HfZcI/AAAAAAAAULg/9XuzOAt-pnw/s800/blackmorel_800.jpg"
+							src="https://lh4.googleusercontent.com/-wy6oSie7-wQ/T0SFbP2DZLI/AAAAAAAAUME/OxWQB57kC1Q/s800/conkspot_800.jpg"
 							usemap="#map" alt="landscape" /> <img class="overlay" id="overlay"
-							src="https://lh4.googleusercontent.com/-mjGq3ExAB2c/T0NXRmpWrWI/AAAAAAAAULY/u9cV3VrLDAU/s800/blackmorel_found_800.png"
+							src="https://lh4.googleusercontent.com/-pM_WzEp5AEs/T0SFabXecxI/AAAAAAAAUMA/3CqKlpSZAKs/s800/conkspot_found_800.png"
 							usemap="#map" alt="spot" />
 					</div> <map name="map">
-						<area shape="circle" coords="278,382,17" alt="black morel!" href="#"
-							onClick="found('You found a Black Morel!')" />
+						<area shape="poly" coords="443,56,412,61,426,88,449,88" alt="bunch of Conks" href="#map"
+							onClick="found('You found a bunch of Conks!')" />
 					</map></td>
 				<td><div class="legend" id="legend">
 						Can you spot the mushroom hidden in this picture? Click on it to
 						reveal what mushroom is hiding...
-						<p>
-							<a href="#" id="hint" onClick="highlight()"><b>Hint</b></a>
+						<br>
+						<p id="hint">
+							<a href="#" onClick="hint()"><b>Hint</b></a>
+							<span id="show_hint">
+								Look for a bunch of Conks...
+							<a href="#map" onClick="highlight()">Show me</a>
+							</span>
 						</p>
 					</div> <br />
 					<div class="blurb" id="blurb">
 						<img
-							src="https://lh3.googleusercontent.com/-wem3eTVS7E4/T0NXcrwRSXI/AAAAAAAAULo/iuuHeFpvGw0/s288/blackmorel_found.jpg" />
-						<br /> <a href="./m1.html"><b>Spot more...</b></a>
+							src="https://lh3.googleusercontent.com/-juHfXlQAD8c/T0NIyqSlDSI/AAAAAAAAUJ8/ZZFqO0-pM2I/s288/conk.jpg" />
+						<br /> 
+						<a href="./m4.html"><b>Spot more...</b></a>
 					</div></td>
 			</tr>
 		</tbody>
