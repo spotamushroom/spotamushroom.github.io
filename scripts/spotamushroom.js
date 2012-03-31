@@ -6,6 +6,10 @@ function found(message) {
 	return true;
 }
 
+function hint() {
+	document.getElementById("show_hint").style.display = "block";
+}
+
 function highlight() {
 	document.getElementById("overlay").style.display = "block";
 	document.getElementById("hint").style.display = "none";

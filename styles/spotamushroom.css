@@ -20,6 +20,9 @@ body {
 #hint {
 	display: none;
 }
+#show_hint {
+	display: none;
+}
 .share {
 	position: relative;
 	top: 50pt;
