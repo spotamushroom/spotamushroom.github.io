@@ -1,0 +1,74 @@
+{
+	"mushrooms":{
+		"m1":{"name":"Shaggy Mane",
+			"images":{
+				"landscape":"https://lh6.googleusercontent.com/-eJ5Wk3Qj7D4/T3eCF2F_MVI/AAAAAAAAVx0/b2P4Rdpjjmo/s800/s2_shaggymane_spot_800.jpg",
+				"overlay":"https://lh6.googleusercontent.com/-_hD_gRXbYCk/T3eB8npMIDI/AAAAAAAAVxc/QWg_e7yEnZ4/s800/s2_shaggymane_found_800.png",
+				"blurb":"https://lh5.googleusercontent.com/-qR3SWm6RFc4/T3eCJH8dnRI/AAAAAAAAVyA/KbYu26mVH1E/s288/s2_shaggymane.JPG"
+			},
+			"shape":"rect",
+			"coords":"146,309,171,346",
+			"next":"m2"
+		},
+		"m2":{"name":"Black Trumpet",
+			"images":{
+				"landscape":"https://lh5.googleusercontent.com/-TXKsYbR0jqU/T3eCOsEXGtI/AAAAAAAAVyQ/tQqENXZRL00/s800/s2_trumpet1_spot_800.jpg",
+				"overlay":"https://lh3.googleusercontent.com/-8wdKhay8pZU/T3eCLJh_h7I/AAAAAAAAVyI/vWD_dm3vOGs/s800/s2_trumpet1_found_800.png",
+				"blurb":"https://lh6.googleusercontent.com/-d74-f7Hum64/T3eCSN7qykI/AAAAAAAAVyg/CuxmU5WHIzs/s288/s2_trumpet1.JPG"
+			},
+			"shape":"circle",
+			"coords":"503,188,23",
+			"next":"m3"
+		},
+		"m3":{"name":"second Black Trumpet",
+			"images":{
+				"landscape":"https://lh6.googleusercontent.com/-3U5efs5te3s/T3eCXw7XWbI/AAAAAAAAVyw/7TNt6fDlZdo/s800/s2_trumpet2_spot_800.jpg",
+				"overlay":"https://lh6.googleusercontent.com/-gLVWY9TAzP4/T3eCPtqsbwI/AAAAAAAAVyY/vCF8Uy3a2so/s800/s2_trumpet2_found_800.png",
+				"blurb":"https://lh3.googleusercontent.com/-ZZfAF1ugpIw/T3eCaPSjVTI/AAAAAAAAVy4/P0MuZ8Jt_H0/s288/s2_trumpet2.JPG"
+			},
+			"shape":"rect",
+			"coords":"503,90,545,124",
+			"next":"m4"
+		},
+		"m4":{"name":"decaying Russula",
+			"images":{
+				"landscape":"https://lh4.googleusercontent.com/-JOjTUUm9AVE/T3eB41gJdPI/AAAAAAAAVxU/f44ry3causg/s800/s2_russula_decay_spot_800.jpg",
+				"overlay":"https://lh3.googleusercontent.com/-Pz5QtQEDgJ8/T3eB1RYaXZI/AAAAAAAAVxM/wbliW7QPIlA/s800/s2_russula_decay_found_800.png",
+				"blurb":"https://lh4.googleusercontent.com/-6MK0BksXUp0/T3eCDYcDbkI/AAAAAAAAVxk/cnfVwqYCblQ/s288/s2_russula_decay.JPG"
+			},
+			"shape":"poly",
+			"coords":"548,369,529,378,526,397,547,404,549,428,568,428,567,404,588,393,570,375",
+			"next":"m5"
+		},
+		"m5":{"name":"Coral mushroom",
+			"images":{
+				"landscape":"https://lh6.googleusercontent.com/-BShFJfdreSo/T3eBKhoky6I/AAAAAAAAVwc/nYvxzzs6ghU/s800/s2_coral_spot_800.jpg",
+				"overlay":"https://lh4.googleusercontent.com/-DehT_lU9OqM/T3eBGyxhAgI/AAAAAAAAVwM/86HF3pmitRQ/s800/s2_coral_found_800.png",
+				"blurb":"https://lh4.googleusercontent.com/-KuqVAQlZYdg/T3eBUMFAh1I/AAAAAAAAVws/4HISzueM1kk/s288/s2_coral.JPG"
+			},
+			"shape":"circle",
+			"coords":"546,496,18",
+			"next":"m6"
+		},
+		"m6":{"name":"bunch of Black Trumpets",
+			"images":{
+				"landscape":"https://lh4.googleusercontent.com/-aYbxYJqKfsk/T3eCdWdP90I/AAAAAAAAVzA/bP6lt9Bdhzo/s800/s2_trumpetclutch2_spot_800.jpg",
+				"overlay":"https://lh6.googleusercontent.com/-W09n_kT2NMM/T3eCUR6tKbI/AAAAAAAAVyo/Nbk7UKSo_VE/s800/s2_trumpetclutch2_found_800.png",
+				"blurb":"https://lh4.googleusercontent.com/-HE3XyUkVCw8/T3eCfp3mreI/AAAAAAAAVzI/VO9Tur4mvOc/s288/s2_trumpetclutch2.JPG"
+			},
+			"shape":"circle",
+			"coords":"151,258,22",
+			"next":"m7"
+		},		
+		"m7":{"name":"Belly Button Hedgehog",
+			"images":{
+				"landscape":"https://lh6.googleusercontent.com/-q0mp5dulhcU/T3eBNXS15fI/AAAAAAAAVwk/DCFPwHZbY8s/s800/s2_hedgehog_spot_800.jpg",
+				"overlay":"https://lh5.googleusercontent.com/-hLquuU_DQTY/T3eBKGh94EI/AAAAAAAAVwU/C7JJd8ZnnMw/s800/s2_hedgehog_found_800.png",
+				"blurb":"https://lh5.googleusercontent.com/-DxhAkFOfKXk/T3eBd6yK-XI/AAAAAAAAVw8/1laWMdLu9GU/s288/s2_hedgehog.JPG"
+			},
+			"shape":"poly",
+			"coords":"229,201,251,182,281,216,268,224,249,221",
+			"next":"last"
+		}
+	}
+}

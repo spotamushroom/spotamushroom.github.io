@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spot A Mushroom</title>
+<meta name="robots" content="noindex nofollow">
+<link rel="stylesheet" type="text/css" href="../styles/spotamushroom.css" />
+<script type="text/javascript" src="../scripts/spotamushroom.js"></script>
+</head>
+<body>
+
+	<table id="mushroomspot">
+		<thead>
+			<tr>
+				<th colspan="2">Spot the mushroom</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><div class="mushroom">
+						<img
+							src="https://lh4.googleusercontent.com/-JOjTUUm9AVE/T3eB41gJdPI/AAAAAAAAVxU/f44ry3causg/s800/s2_russula_decay_spot_800.jpg"
+							usemap="#map" alt="landscape" /> <img class="overlay" id="overlay"
+							src="https://lh3.googleusercontent.com/-Pz5QtQEDgJ8/T3eB1RYaXZI/AAAAAAAAVxM/wbliW7QPIlA/s800/s2_russula_decay_found_800.png"
+							usemap="#map" alt="spot" />
+					</div> <map name="map">
+						<area shape="poly" coords="548,369,529,378,526,397,547,404,549,428,568,428,567,404,588,393,570,375" alt="decaying Russula" href="#map"
+							onClick="found('You found a decaying Russula!')" />
+					</map></td>
+				<td><div class="legend" id="legend">
+						Can you spot the mushroom hidden in this picture? Click on it to
+						reveal what mushroom is hiding...
+						<br>
+						<p id="hint">
+							<a href="#" onClick="hint()"><b>Hint</b></a>
+							<span id="show_hint">
+								Look for a decaying Russula...
+							<a href="#map" onClick="highlight()">Show me</a>
+							</span>
+						</p>
+					</div> <br />
+					<div class="blurb" id="blurb">
+						<img
+							src="https://lh4.googleusercontent.com/-6MK0BksXUp0/T3eCDYcDbkI/AAAAAAAAVxk/cnfVwqYCblQ/s288/s2_russula_decay.JPG" />
+						<br /> 
+						<a href="./m5.html"><b>Spot more...</b></a>
+					</div></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>&copy; 2012 SpotAMushroom.com</td>
+			</tr>
+		</tfoot>
+	</table>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29363072-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

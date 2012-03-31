@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spot A Mushroom</title>
+<meta name="robots" content="noindex nofollow">
+<link rel="stylesheet" type="text/css" href="../styles/spotamushroom.css" />
+<script type="text/javascript" src="../scripts/spotamushroom.js"></script>
+</head>
+<body>
+
+	<table id="mushroomspot">
+		<thead>
+			<tr>
+				<th colspan="2">Spot the mushroom</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><div class="mushroom">
+						<img
+							src="https://lh6.googleusercontent.com/-eJ5Wk3Qj7D4/T3eCF2F_MVI/AAAAAAAAVx0/b2P4Rdpjjmo/s800/s2_shaggymane_spot_800.jpg"
+							usemap="#map" alt="landscape" /> <img class="overlay" id="overlay"
+							src="https://lh6.googleusercontent.com/-_hD_gRXbYCk/T3eB8npMIDI/AAAAAAAAVxc/QWg_e7yEnZ4/s800/s2_shaggymane_found_800.png"
+							usemap="#map" alt="spot" />
+					</div> <map name="map">
+						<area shape="rect" coords="146,309,171,346" alt="Shaggy Mane" href="#map"
+							onClick="found('You found a Shaggy Mane!')" />
+					</map></td>
+				<td><div class="legend" id="legend">
+						Can you spot the mushroom hidden in this picture? Click on it to
+						reveal what mushroom is hiding...
+						<br>
+						<p id="hint">
+							<a href="#" onClick="hint()"><b>Hint</b></a>
+							<span id="show_hint">
+								Look for a Shaggy Mane...
+							<a href="#map" onClick="highlight()">Show me</a>
+							</span>
+						</p>
+					</div> <br />
+					<div class="blurb" id="blurb">
+						<img
+							src="https://lh5.googleusercontent.com/-qR3SWm6RFc4/T3eCJH8dnRI/AAAAAAAAVyA/KbYu26mVH1E/s288/s2_shaggymane.JPG" />
+						<br /> 
+						<a href="./m2.html"><b>Spot more...</b></a>
+					</div></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>&copy; 2012 SpotAMushroom.com</td>
+			</tr>
+		</tfoot>
+	</table>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29363072-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
