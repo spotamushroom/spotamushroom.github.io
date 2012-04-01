@@ -1,0 +1,64 @@
+{
+	"mushrooms":{
+		"m1":{"name":"Black Trumpet",
+			"images":{
+				"landscape":"https://lh3.googleusercontent.com/-KMG3MX2hZGQ/T3fWwPMvlWI/AAAAAAAAV1E/nyki4t4d1yQ/s800/s3_trumpet3_spot_800.jpg",
+				"overlay":"https://lh5.googleusercontent.com/-vX65rHxWHYc/T3fWqvW7-JI/AAAAAAAAV0o/Dpb2clC64t0/s800/s3_trumpet3_found_800.png",
+				"blurb":"https://lh5.googleusercontent.com/-m6dFcKm4H-o/T3fW2sg3R0I/AAAAAAAAV1Q/1XQETo1DEyM/s288/s3_trumpet3.JPG"
+			},
+			"shape":"circle",
+			"coords":"175,115,15",
+			"next":"m2"
+		},
+		"m2":{"name":"Cup fungus",
+			"images":{
+				"landscape":"https://lh4.googleusercontent.com/-AtR5ofPwgyc/T3fWUm3SKLI/AAAAAAAAVzY/JC4R2bkG1Yo/s800/s3_cup_spot_800.jpg",
+				"overlay":"https://lh4.googleusercontent.com/-ttAdl7nAIrw/T3fWRBWoTqI/AAAAAAAAVzQ/kxEDeRdcipc/s800/s3_cup_found_800.png",
+				"blurb":"https://lh5.googleusercontent.com/-DAZPkZ3YHMA/T3fWbqi3YeI/AAAAAAAAVzo/Esn4gdn3TOM/s288/s3_cup.JPG"
+			},
+			"shape":"circle",
+			"coords":"93,523,31",
+			"next":"m3"
+		},
+		"m3":{"name":"California Oak Chanterelle (Cantharellus californicus)",
+			"images":{
+				"landscape":"https://lh4.googleusercontent.com/-uYZ4Okcfmqo/T3fWlaCHe4I/AAAAAAAAV0U/8wrl5SVKCEo/s800/s3_oakchanterelle_spot_800.jpg",
+				"overlay":"https://lh6.googleusercontent.com/-r5H3sGGUB8Q/T3fWdlfg_gI/AAAAAAAAVz4/z5r9EB14V2Q/s800/s3_oakchanterelle_found_800.png",
+				"blurb":"https://lh5.googleusercontent.com/-Bx85yQsMs2E/T3fWnhg_Y1I/AAAAAAAAV0c/PUswL-NdRgY/s288/s3_oakchanterelle.JPG"
+			},
+			"shape":"poly",
+			"coords":"202,230,239,260,228,276,186,239",
+			"next":"m4"
+		},
+		"m4":{"name":"decaying Black Trumpet",
+			"images":{
+				"landscape":"https://lh3.googleusercontent.com/-ItjEZQmTUVU/T3fWqXheTuI/AAAAAAAAV0k/1J_QS11i8q8/s800/s3_trumpet_decay_spot_800.jpg",
+				"overlay":"https://lh4.googleusercontent.com/-k2iz8-DELck/T3fWhED426I/AAAAAAAAV0I/tQj59gvxiJw/s800/s3_trumpet_decay_found_800.png",
+				"blurb":"https://lh5.googleusercontent.com/-KdIBB36OFIM/T3fWqj5f2aI/AAAAAAAAV00/701zqEv6kVw/s288/s3_trumpet_decay.jpg"
+			},
+			"shape":"circle",
+			"coords":"644,381,22",
+			"next":"m5"
+		},
+		"m5":{"name":"Jelly Baby (Leotia lubrica)",
+			"images":{
+				"landscape":"https://lh5.googleusercontent.com/--4JZnWD3TJM/T3fWdbasfmI/AAAAAAAAVzw/PSnN-zmks4E/s800/s3_jellybaby_spot_800.jpg",
+				"overlay":"https://lh3.googleusercontent.com/-w7c7MNOE7Y4/T3fWWE9nMKI/AAAAAAAAVzg/TFrJMZpH3SM/s800/s3_jellybaby_found_800.png",
+				"blurb":"https://lh4.googleusercontent.com/-gkIaShcV89k/T3fWe5ZhtCI/AAAAAAAAV0A/UJhOt9OnXjE/s288/s3_jellybaby.JPG"
+			},
+			"shape":"circle",
+			"coords":"775,161,17",
+			"next":"m6"
+		},
+		"m6":{"name":"Bunch of Black Trumpets",
+			"images":{
+				"landscape":"https://lh5.googleusercontent.com/-q0gWLRpTD1I/T3fW2blM7QI/AAAAAAAAV1M/IlJ1iLn9FtY/s800/s3_trumpetclutch1_spot_800.jpg",
+				"overlay":"https://lh4.googleusercontent.com/-ljDcI4JFnPA/T3fnATjHYKI/AAAAAAAAV1s/IiCamWwdzpE/s800/s3_trumpetclutch1_found_800.png",
+				"blurb":"https://lh4.googleusercontent.com/-b9VxJWudHDY/T3fW3nWC7bI/AAAAAAAAV1c/62V1fdZQO8A/s288/s3_trumpetclutch1.JPG"
+			},
+			"shape":"poly",
+			"coords":"638,11,591,0,563,5,545,30,559,51,622,37",
+			"next":"last"
+		}
+	}
+}	

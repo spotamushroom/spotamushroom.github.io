@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spot A Mushroom</title>
+<meta name="robots" content="noindex nofollow">
+<link rel="stylesheet" type="text/css" href="../styles/spotamushroom.css" />
+<script type="text/javascript" src="../scripts/spotamushroom.js"></script>
+</head>
+<body>
+
+	<table id="mushroomspot">
+		<thead>
+			<tr>
+				<th colspan="2">Spot the mushroom</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><div class="mushroom">
+						<img
+							src="https://lh4.googleusercontent.com/-uYZ4Okcfmqo/T3fWlaCHe4I/AAAAAAAAV0U/8wrl5SVKCEo/s800/s3_oakchanterelle_spot_800.jpg"
+							usemap="#map" alt="landscape" /> <img class="overlay" id="overlay"
+							src="https://lh6.googleusercontent.com/-r5H3sGGUB8Q/T3fWdlfg_gI/AAAAAAAAVz4/z5r9EB14V2Q/s800/s3_oakchanterelle_found_800.png"
+							usemap="#map" alt="spot" />
+					</div> <map name="map">
+						<area shape="poly" coords="202,230,239,260,228,276,186,239" alt="Oak Chanterelle (Cantharellus californicus)" href="#map"
+							onClick="found('You found a California Oak Chanterelle (Cantharellus californicus)!')" />
+					</map></td>
+				<td><div class="legend" id="legend">
+						Can you spot the mushroom hidden in this picture? Click on it to
+						reveal what mushroom is hiding...
+						<br>
+						<p id="hint">
+							<a href="#" onClick="hint()"><b>Hint</b></a>
+							<span id="show_hint">
+								Look for a Oak Chanterelle (Cantharellus californicus)...
+							<a href="#map" onClick="highlight()">Show me</a>
+							</span>
+						</p>
+					</div> <br />
+					<div class="blurb" id="blurb">
+						<img
+							src="https://lh5.googleusercontent.com/-Bx85yQsMs2E/T3fWnhg_Y1I/AAAAAAAAV0c/PUswL-NdRgY/s288/s3_oakchanterelle.JPG" />
+						<br /> 
+						<a href="./m4.html"><b>Spot more...</b></a>
+					</div></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>&copy; 2012 SpotAMushroom.com</td>
+			</tr>
+		</tfoot>
+	</table>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29363072-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
