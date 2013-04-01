@@ -1,0 +1,44 @@
+{
+	"mushrooms":{
+		"m0":{"name":"morel",
+			"images":{
+				"landscape":"https://lh3.googleusercontent.com/-6LIdHrj2rIY/UVki48mSgsI/AAAAAAAAahE/fESbkOVSUp4/s800/s4_morel0_spot.JPG",
+				"overlay":"https://lh3.googleusercontent.com/-QNmS2m7w4Ng/UVki4duELtI/AAAAAAAAag4/j52RSjhSm5I/s800/s4_morel0_found.png",
+				"blurb":"https://lh5.googleusercontent.com/-yvg2atjKwRI/UVki4yJwDoI/AAAAAAAAahI/d3KUe7Y88Ws/s288/s4_morel0.JPG"
+			},
+			"shape":"rect",
+			"coords":"258,399,288,430",
+			"next":"m1"
+		},
+		"m1":{"name":"second morel",
+			"images":{
+				"landscape":"https://lh5.googleusercontent.com/-F5sXBb299Fc/UVkNA97EtjI/AAAAAAAAaf0/sefMEs67lYk/s800/s4_morel1_spot.JPG",
+				"overlay":"https://lh5.googleusercontent.com/-1bScf5W8ZGg/UVkNARv2Z5I/AAAAAAAAafo/-mNx5ws9HIo/s800/s4_morel1_found.png",
+				"blurb":"https://lh4.googleusercontent.com/-_wsawledmV4/UVkNA6CbOsI/AAAAAAAAaf4/V8teVRWIKfw/s288/s4_morel1.JPG"
+			},
+			"shape":"rect",
+			"coords":"175,242,223,307",
+			"next":"m2"
+		},
+		"m2":{"name":"third morel",
+			"images":{
+				"landscape":"https://lh6.googleusercontent.com/-fNW_jTodrXM/UVkQ_9ItNdI/AAAAAAAAagM/akQBhDtFszs/s800/s4_morel2_spot.JPG",
+				"overlay":"https://lh3.googleusercontent.com/-X3UQiwN8O5I/UVkQ_Yf8lmI/AAAAAAAAagA/tlto-ixC2Pw/s800/s4_morel2_found.png",
+				"blurb":"https://lh5.googleusercontent.com/-7noS6AtDQGM/UVkQ_3Fc4fI/AAAAAAAAagQ/OpBet_gKAG4/s288/s4_morel2.JPG"
+			},
+			"shape":"circle",
+			"coords":"595,155,18",
+			"next":"m3"
+		},
+		"m3":{"name":"fourth morel",
+			"images":{
+				"landscape":"https://lh6.googleusercontent.com/-vEzCn30QlDA/UVkfg09toPI/AAAAAAAAagw/JfMrXNSsrUs/s800/s4_morel3_spot.JPG",
+				"overlay":"https://lh3.googleusercontent.com/-pElCo7sns3I/UVkfgakUz3I/AAAAAAAAagg/XHYqGaqtrzA/s800/s4_morel3_found.png",
+				"blurb":"https://lh6.googleusercontent.com/-kuJbOubwuoY/UVkfg9qZl4I/AAAAAAAAags/ahY8VGKIN84/s288/s4_morel3.JPG"
+			},
+			"shape":"circle",
+			"coords":"49,114,17",
+			"next":"last"
+		}
+	}
+}	

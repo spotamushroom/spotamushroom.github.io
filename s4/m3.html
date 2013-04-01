@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spot A Mushroom</title>
+<meta name="robots" content="noindex nofollow">
+<link rel="stylesheet" type="text/css" href="../styles/spotamushroom.css" />
+<script type="text/javascript" src="../scripts/spotamushroom.js"></script>
+<meta property="og:title" content="Spot A Mushroom" />
+<meta property="og:type" content="game" />
+<meta property="og:url" content="http://www.spotamushroom.com" />
+<meta property="og:image"
+	content="https://lh6.googleusercontent.com/-6fvNAYiyPkA/T0l6jwtNmqI/AAAAAAAAUMg/iR-YkaWjVs0/s144/IMG_4257.JPG" />
+<meta property="og:description"
+	content="I found a bunch of morels at SpotAMushroom. Try it!" />
+<meta property="og:site_name" content="SpotAMushroom.com" />
+</head>
+<body>
+
+	<table id="mushroomspot">
+		<thead>
+			<tr>
+				<th colspan="2">Spot the mushroom</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><div class="mushroom">
+						<img
+							src="https://lh6.googleusercontent.com/-vEzCn30QlDA/UVkfg09toPI/AAAAAAAAagw/JfMrXNSsrUs/s800/s4_morel3_spot.JPG"
+							usemap="#map" alt="landscape" /> <img class="overlay" id="overlay"
+							src="https://lh3.googleusercontent.com/-pElCo7sns3I/UVkfgakUz3I/AAAAAAAAagg/XHYqGaqtrzA/s800/s4_morel3_found.png"
+							usemap="#map" alt="spot" />
+					</div> <map name="map">
+						<area shape="circle" coords="49,114,17" alt="fourth morel" href="#map"
+							onClick="found('You found a fourth morel!')" />
+					</map></td>
+				<td><div class="legend" id="legend">
+						Can you spot the mushroom hidden in this picture? Click on it to
+						reveal what mushroom is hiding...
+						<br>
+						<p id="hint">
+							<a href="#" onClick="hint()"><b>Hint</b></a>
+							<span id="show_hint">
+								Look for a fourth morel...
+							<a href="#map" onClick="highlight()">Show me</a>
+							</span>
+						</p>
+					</div> <br />
+					<div class="blurb" id="blurb">
+						<img
+							src="https://lh6.googleusercontent.com/-kuJbOubwuoY/UVkfg9qZl4I/AAAAAAAAags/ahY8VGKIN84/s288/s4_morel3.JPG" />
+						<br /> 
+						<div class="share">
+							Congratulations, that's all for now... share the fun: <br /> <br />
+							<table>
+								<tr>
+									<td><span class='st_facebook_hcount'
+										displayText='Facebook'></span><br /></td>
+								</tr>
+								<tr>
+									<td><span class='st_twitter_hcount' displayText='Tweet'></span><br /></td>
+								</tr>
+								<tr>
+									<td><span class='st_email_hcount'
+										st_title="Spot A Mushroom" st_url="http://spotamushroom.com"
+										displayText='Email'></span></td>
+								</tr>
+							</table>
+						</div>
+					</div></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>&copy; 2013 SpotAMushroom.com</td>
+			</tr>
+		</tfoot>
+	</table>
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<script type="text/javascript"
+		src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "bbbc8905-2c96-4617-927b-219f0c9b1259"}); </script>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29363072-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
