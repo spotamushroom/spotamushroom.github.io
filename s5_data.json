@@ -1,0 +1,54 @@
+{
+	"mushrooms":{
+		"m1":{"name":"bolete (Boletus smithii)",
+			"images":{
+				"landscape":"https://lh3.googleusercontent.com/-Fq9uvP1-hWo/UxPzm2aAOyI/AAAAAAAAeHs/3mGtnTCDWXM/s800/s5_bolete_spot.JPG",
+				"overlay":"https://lh4.googleusercontent.com/-OBCy_GIh0W0/UxPzmsM-FVI/AAAAAAAAeIQ/HBlaWcHWEkE/s800/s5_bolete_found.png",
+				"blurb":"https://lh4.googleusercontent.com/-XlWLV6_rvCU/UxPzmoBG8yI/AAAAAAAAeHk/Xw_LRFniI60/s800/s5_bolete.JPG"
+			},
+			"shape":"circle",
+			"coords":"226,158,27",
+			"next":"m2"
+		},
+		"m2":{"name":"morel",
+			"images":{
+				"landscape":"https://lh6.googleusercontent.com/-gieouBJdV2w/UxPzn4OHALI/AAAAAAAAeIU/O2tQLyluAmk/s800/s5_morel1_spot.JPG",
+				"overlay":"https://lh5.googleusercontent.com/-faAzBOJS6Tw/UxPznbOwucI/AAAAAAAAeH8/340tgZvvXsc/s800/s5_morel1_found.png",
+				"blurb":"https://lh3.googleusercontent.com/-22K5IbIy7nE/UxPznHvz3DI/AAAAAAAAeH0/9N_K2fOeoY0/s800/s5_morel1.JPG"
+			},
+			"shape":"circle",
+			"coords":"512,100,16",
+			"next":"m3"
+		},
+		"m3":{"name":"thimble fungus (Verpa conica)",
+			"images":{
+				"landscape":"https://lh6.googleusercontent.com/-SN12DOBjU3I/UxPzsYed0cI/AAAAAAAAeJQ/mg4qP1ko8k0/s800/s5_verpa_spot.JPG",
+				"overlay":"https://lh4.googleusercontent.com/-qzHWLk4pTVU/UxQQ1Itb1rI/AAAAAAAAeJk/et93eVw0zDg/s800/s5_verpa_found.png",
+				"blurb":"https://lh3.googleusercontent.com/-S_y9ybOBwKA/UxPzqOW7p_I/AAAAAAAAeIw/jSUGb1HhaqE/s800/s5_verpa.JPG"
+			},
+			"shape":"circle",
+			"coords":"663,355,19",
+			"next":"m4"
+		},
+		"m4":{"name":"a second morel",
+			"images":{
+				"landscape":"https://lh3.googleusercontent.com/-jxaIAD2c0NY/UxPzo3dE6PI/AAAAAAAAeIY/6-JP9dCmFYQ/s800/s5_morel2_spot.JPG",
+				"overlay":"https://lh4.googleusercontent.com/-lWsu15X-I7o/UxPzpNxMn3I/AAAAAAAAeIs/9RJVSSNILAE/s800/s5_morel2_found.png",
+				"blurb":"https://lh6.googleusercontent.com/-xURgs2Jo5X0/UxPzoBtCHeI/AAAAAAAAeII/0hYw-NnF2J4/s800/s5_morel2.JPG"
+			},
+			"shape":"rect",
+			"coords":"327,371,359,412",
+			"next":"m5"
+		},		
+		"m5":{"name":"a big morel",
+			"images":{
+				"landscape":"https://lh6.googleusercontent.com/-rnut1zZZljQ/UxPzrQwxpCI/AAAAAAAAeJE/APAYUsNTd2c/s800/s5_morel3_spot.JPG",
+				"overlay":"https://lh5.googleusercontent.com/-XtILr-TLnSk/UxPzr97mCCI/AAAAAAAAeJI/Kfft_haQqS8/s800/s5_morel3_found.png",
+				"blurb":"https://lh5.googleusercontent.com/-2gWVADCLEcw/UxPzpLxdM1I/AAAAAAAAeIk/5tdLcoz60tc/s288/s5_morel3.JPG"
+			},
+			"shape":"rect",
+			"coords":"367,279,401,315",
+			"next":"last"
+		}
+	}
+}
